@@ -14,23 +14,12 @@ body {
 	background-color: #282725;
 
 	font-family: 'Louis George Café', sans-serif;
-	font-size: 16px;
+	font-size: 21px;
 	text-align: center;
 	color: #f2e3bf;
 }
 
-.text-logo-img {
-	position: relative;
-	width: 55%;
-	margin-top: -60px;
-}
-
-.key-art-img {
-	position: relative;
-	width: 90%;
-	margin-top: 40px;
-}
-
+/* Top right icons */
 .external-links-container {
 	position: relative;
 	text-align: right;
@@ -40,20 +29,34 @@ body {
 
 .external-link-img {
 	position: relative;
-	width: 5%;
-	margin-bottom: 10px;
+	width: 35px;
+	margin-bottom: 5px;
 }
 
-.summary-title {
-	font-size:large;
+/* Logos */
+.text-logo-img {
 	position: relative;
-	margin: 1em 3em 1.5em 3em;
+	width: 55%;
+	margin-top: -70px;
+	z-index: 1;
+}
+
+.key-art-img {
+	position: relative;
+	max-width: 80%;
+}
+
+/* Summary */
+.summary-title {
+	font-size: 35px;
+	position: relative;
+	margin: 0.3em 3em 1.5em 3em;
 	text-align: center;
 }
 
 .text {
 	position: relative;
-	margin: 1em 4.5em 1em 4.5em;
+	margin: 1em 4.5em 1.5em 4.5em;
 	text-align: center;
 	line-height: 140%;
 }
@@ -64,7 +67,7 @@ body {
 
 .trailer {
     padding: 0 80px 40px 80px;
-	margin-bottom: -50px;
+	margin-bottom: -60px;
 }
 
 .trailer-inner {
@@ -85,8 +88,15 @@ body {
 	height: 100%;
 }
 
+.text-bottom {
+	position: relative;
+	text-align: center;
+	margin: 0;
+	line-height: 140%;
+}
+
 .bottom-logo-img {
-	width: 7%;
+	width: 50px;
 }
 
 a {

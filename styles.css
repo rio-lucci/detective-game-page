@@ -124,5 +124,14 @@ a:hover {
 		margin-left: 1.5em;
 		margin-right: 1.5em;
 	}
+
+	.pc-only {
+		display: none;
+	}
 }
 
+@media screen and (min-width: 690px) {
+	.mobile-only {
+		display: none;
+	}
+}

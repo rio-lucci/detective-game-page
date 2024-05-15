@@ -23,8 +23,8 @@ body {
 .external-links-container {
 	position: relative;
 	text-align: right;
-	padding-top: 10px;
-	padding-right: 7px;
+	padding-top: 20px;
+	padding-right: 17px;
 }
 
 .external-link-img {
@@ -33,11 +33,15 @@ body {
 	margin-bottom: 5px;
 }
 
+.external-link-img:hover {
+  filter: brightness(60%);
+}
+
 /* Logos */
 .text-logo-img {
 	position: relative;
 	width: 55%;
-	margin-top: -70px;
+	margin-top: -80px;
 	z-index: 1;
 }
 
@@ -110,4 +114,15 @@ a:hover {
     .trailer  {
         padding: 0 0 40px 0;
     }
+
+    .summary-title {
+		margin-left: 0.5em;
+		margin-right: 0.5em;
+	}
+
+	.text {
+		margin-left: 1.5em;
+		margin-right: 1.5em;
+	}
 }
+

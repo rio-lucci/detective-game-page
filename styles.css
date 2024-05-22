@@ -51,7 +51,7 @@ body {
 /* Logos */
 .text-logo-img {
 	position: relative;
-	width: 55%;
+	width: 50%;
 	margin-top: -80px;
 	z-index: 1;
 }
